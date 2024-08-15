@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rotating-navigation-animation</title>
+    <link rel="stylesheet" href="output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body class="body">
+    <!-- main container for the content -->
+    <div class="page">
+      <!-- hamberger start here. -->
+
+      <div class="w-screen text-white">
+        <span
+          class="icon bg-[#FF7979] p-5 rounded-br-full open fixed top-0 left-0"
+          ><i class="fa-solid fa-bars"></i
+        ></span>
+        <span
+          class="icon bg-[#FF7979] p-5 rounded-br-full close hidden fixed top-0 left-0"
+          ><i class="fa-solid fa-xmark"></i
+        ></span>
+      </div>
+      <div class="container px-24 bg-white w-screen">
+        <!-- title of the article starts here. -->
+        <div class="title mb-5">
+          <p class="font-semibold text-lg">Amazing Article</p>
+          <p class="text-[10px] font-light">Sagar Singh</p>
+        </div>
+        <div class="content mb-5">
+          <p class="text-[10px]">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Necessitatibus soluta nihil voluptatum molestiae nam enim unde,
+            dicta suscipit non eligendi nobis commodi eum explicabo corrupti! Ut
+            nemo mollitia inventore. Sed. Tempora consectetur libero, voluptates
+            optio error fugit vero obcaecati cum officia dolore quos totam ex
+            ducimus odio soluta magnam sint quasi nesciunt iusto molestias vitae
+            aspernatur distinctio laborum deserunt? Magni? Rem optio cumque
+            nulla! Veritatis voluptates harum, earum fuga architecto aut, non
+            nulla numquam, aliquid nemo consequatur incidunt dolores! Autem
+            pariatur voluptas praesentium, culpa totam repellat dolorem error
+            rerum magnam!
+          </p>
+        </div>
+        <!-- img container start here -->
+        <div class="img-container">
+          <p class="text-[12px] font-semibold mb-3">My Dog</p>
+          <div class="image mb-3">
+            <img
+              src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt=""
+            />
+          </div>
+          <!-- img description starts here. -->
+          <div class="content-image text-[10px]">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+            explicabo tenetur magnam. Nulla magni cupiditate iste vitae neque
+            itaque vero aliquid. Quo dolores neque, quibusdam totam voluptatibus
+            facere fuga deserunt! Vitae aliquam debitis ut provident tempore
+            quia incidunt quo eum rerum nihil architecto, quaerat cupiditate
+            aliquid nemo maxime quasi alias suscipit repudiandae rem itaque ipsa
+            vero, corporis delectus. Quas, voluptatem? Nulla fuga quia molestias
+            expedita cumque voluptatum! Corrupti ut optio dolores totam
+            voluptas, ratione atque earum iste neque sequi odit repellat numquam
+            tempora quaerat, modi culpa quod? Ad, nobis magni?
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="nav-bar text-white pl-8 fixed bottom-10 hidden">
+      <ul>
+        <li><i class="fas fa-home"></i><a href="#"> Home</a></li>
+        <li><i class="fas fa-user-alt"></i><a href="#"> About</a></li>
+        <li><i class="fas fa-envelope"></i><a href="#"> Contact</a></li>
+      </ul>
+    </nav>
+
+    <script src="script.js"></script>
+  </body>
+</html>
